@@ -1,0 +1,12 @@
+{
+  "request": "request.txt",
+  "response": "response.txt",
+  "title": "IDOR + mass assignment: role escalated to admin",
+  "timeMs": 142,
+  "marks": [
+    { "pane": "request", "match": "/api/v2/users/1337/profile", "color": "blue" },
+    { "pane": "request", "key": "role", "note": "Client-controlled role accepted by the API", "color": "red" },
+    { "pane": "response", "key": "role", "note": "Server confirms the escalated role", "color": "red" },
+    { "pane": "response", "key": "email", "note": "Victim's PII returned for another user's ID", "color": "orange" }
+  ]
+}

