@@ -1,7 +1,7 @@
 {
   "name": "noverdy-skills",
   "version": "0.1.0",
-  "description": "Agent skills for bug bounty and pentesting: WordPress plugin lookups, throwaway inboxes, out-of-band callbacks, Wordfence bounty estimates, and Burp-style request/response snapshots for reports.",
+  "description": "Agent skills for bug bounty and pentesting: WordPress plugin lookups, throwaway inboxes, out-of-band callbacks, Wordfence and Patchstack bounty estimates, and Burp-style request/response snapshots for reports.",
   "author": {
     "name": "noverdy",
     "url": "https://github.com/noverdy"
@@ -18,6 +18,7 @@
     "./skills/accounts/receiving-temp-email",
     "./skills/testing/receiving-oob-callbacks",
     "./skills/reporting/estimating-wordfence-bounties",
+    "./skills/reporting/estimating-patchstack-bounties",
     "./skills/reporting/snapshotting-http-requests"
   ]
 }

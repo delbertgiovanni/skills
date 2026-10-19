@@ -56,6 +56,7 @@ ln -s "$PWD/skills/skills/reporting/snapshotting-http-requests" ~/.claude/skills
 ### Triage and reporting
 
 - **[estimating-wordfence-bounties](docs/reporting/estimating-wordfence-bounties.md)**: estimates the Wordfence bug bounty payout for a WordPress plugin or theme vulnerability and checks whether it's in scope, using a snapshot of Wordfence's estimator config. Useful for pricing a finding or deciding which bug classes and install bands are worth hunting.
+- **[estimating-patchstack-bounties](docs/reporting/estimating-patchstack-bounties.md)**: estimates what a WordPress plugin or theme finding earns on Patchstack, as XP and dollars, from live install, VDP and leaderboard data, checks scope and flags flat zero-day bounties. Useful for deciding between Patchstack and Wordfence. *Needs Node 18+, no npm packages.*
 - **[snapshotting-http-requests](docs/reporting/snapshotting-http-requests.md)**: renders a request and response as a Burp-style PNG for the report, with the evidence boxed, numbered notes and secrets blurred. Also sends raw HTTP/1.1 requests exactly as written. *Needs Node 18+, no npm packages.*
 
 ## Rules of engagement
