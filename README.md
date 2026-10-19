@@ -44,6 +44,7 @@ ln -s "$PWD/skills/skills/reporting/snapshotting-http-requests" ~/.claude/skills
 ### Recon
 
 - **[looking-up-wordpress-plugins](docs/recon/looking-up-wordpress-plugins.md)**: looks up a wordpress.org plugin's real install range and Wordfence band, its versions (including closed plugins and deleted malicious releases), the code of any version, and what a patch changed, all over plain HTTPS. Also lists plugins to hunt in an install band. *Needs Node 18+, no npm packages.*
+- **[checking-wordpress-duplicates](docs/recon/checking-wordpress-duplicates.md)**: checks whether a WordPress plugin or theme bug is already publicly known before you report it, merging Patchstack, Wordfence, NVD and optionally WPScan records and matching version, type and parameter. *Needs Node 18+; Chrome for Wordfence without a key.*
 
 ### Accounts and access
 
@@ -52,6 +53,7 @@ ln -s "$PWD/skills/skills/reporting/snapshotting-http-requests" ~/.claude/skills
 ### Testing
 
 - **[receiving-oob-callbacks](docs/testing/receiving-oob-callbacks.md)**: gives the agent its own out-of-band callback host on the public interactsh servers to confirm blind SSRF, blind XSS, XXE and blind command injection, with tagged payloads so each hit names its injection point. *Needs Node 18+, no npm packages.*
+- **[running-wordpress-labs](docs/testing/running-wordpress-labs.md)**: starts a throwaway local WordPress (Playground, no Docker) with exact plugin, theme, WordPress and PHP versions and a user per role, maps AJAX actions and REST routes with their nonce and capability checks, and hands out cookies and nonces for any role. *Needs Node 20+.*
 
 ### Triage and reporting
 
