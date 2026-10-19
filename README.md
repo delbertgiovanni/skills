@@ -41,9 +41,17 @@ ln -s "$PWD/skills/skills/reporting/snapshotting-http-requests" ~/.claude/skills
 
 ## Skills
 
+### Recon
+
+- **[looking-up-wordpress-plugins](docs/recon/looking-up-wordpress-plugins.md)**: looks up a wordpress.org plugin's real install range and Wordfence band, its versions (including closed plugins and deleted malicious releases), the code of any version, and what a patch changed, all over plain HTTPS. Also lists plugins to hunt in an install band. *Needs Node 18+, no npm packages.*
+
 ### Accounts and access
 
 - **[receiving-temp-email](docs/accounts/receiving-temp-email.md)**: creates a throwaway inbox (Mail.tm, with Maildrop as backup) and reads the verification code or magic link from it. Useful for making extra test accounts on a target, e.g. for IDOR or access-control testing. *Needs `curl`.*
+
+### Testing
+
+- **[receiving-oob-callbacks](docs/testing/receiving-oob-callbacks.md)**: gives the agent its own out-of-band callback host on the public interactsh servers to confirm blind SSRF, blind XSS, XXE and blind command injection, with tagged payloads so each hit names its injection point. *Needs Node 18+, no npm packages.*
 
 ### Triage and reporting
 

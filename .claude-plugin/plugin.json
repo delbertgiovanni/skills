@@ -1,15 +1,22 @@
 {
   "name": "noverdy-skills",
   "version": "0.1.0",
-  "description": "Agent skills for bug bounty and pentesting: throwaway inboxes for test accounts, Wordfence bounty estimates, and Burp-style request/response snapshots for reports.",
+  "description": "Agent skills for bug bounty and pentesting: WordPress plugin lookups, throwaway inboxes, out-of-band callbacks, Wordfence bounty estimates, and Burp-style request/response snapshots for reports.",
   "author": {
     "name": "noverdy",
     "url": "https://github.com/noverdy"
   },
   "repository": "https://github.com/noverdy/skills",
-  "keywords": ["bug-bounty", "pentest", "security", "skills"],
+  "keywords": [
+    "bug-bounty",
+    "pentest",
+    "security",
+    "skills"
+  ],
   "skills": [
+    "./skills/recon/looking-up-wordpress-plugins",
     "./skills/accounts/receiving-temp-email",
+    "./skills/testing/receiving-oob-callbacks",
     "./skills/reporting/estimating-wordfence-bounties",
     "./skills/reporting/snapshotting-http-requests"
   ]
