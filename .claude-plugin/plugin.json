@@ -1,0 +1,16 @@
+{
+  "name": "noverdy-skills",
+  "version": "0.1.0",
+  "description": "Agent skills for bug bounty and pentesting: throwaway inboxes for test accounts, Wordfence bounty estimates, and Burp-style request/response snapshots for reports.",
+  "author": {
+    "name": "noverdy",
+    "url": "https://github.com/noverdy"
+  },
+  "repository": "https://github.com/noverdy/skills",
+  "keywords": ["bug-bounty", "pentest", "security", "skills"],
+  "skills": [
+    "./skills/accounts/receiving-temp-email",
+    "./skills/reporting/estimating-wordfence-bounties",
+    "./skills/reporting/snapshotting-http-requests"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "noverdy",
+  "owner": {
+    "name": "noverdy",
+    "url": "https://github.com/noverdy"
+  },
+  "description": "noverdy's bug bounty and pentest skills, as an installable Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "noverdy-skills",
+      "source": "./",
+      "description": "Agent skills for bug bounty and pentesting.",
+      "category": "security",
+      "keywords": ["bug-bounty", "pentest", "security", "skills"]
+    }
+  ]
+}
